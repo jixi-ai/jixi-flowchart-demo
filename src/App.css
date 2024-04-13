@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+/* App.css */
+.json-display {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-family: 'monospace';
+  margin-left: 8px;
+  color: black;
+  text-align: start;
+  margin-bottom: 8px;
+}
+
+.instructions-container {
+  width: 500px;
+  height: 785px;
+  background: white;
+  margin-right: 8px;
+  color: black;
+  font-family: 'system-ui';
+  padding: 8px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  text-align: start;
+}
+
+.input-display {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-family: 'monospace';
+  margin-left: 8px;
+  color: black;
+  text-align: start;
+  margin-top: 8px;
+}
